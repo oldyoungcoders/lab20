@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>index woo hoo</title>
+
+        <style>
+            body{
+                background-color: #c42f2f;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .weather{
+                padding-top: 28px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                background-color: #fff;
+                width: 280px;
+                height: 350px;
+                border-radius: 10px;
+                text-align: center;
+            }
+            button{
+                height: 30px;
+                border-radius: 5px;
+                border: none;
+                color: #ffffff;
+                background-color: black;
+            }
+            .temp{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .wind{
+                font-size: 20px;
+                font-weight: bold; 
+            }
+            .desc{
+                font-size: 20px;
+                font-weight: bold;
+            }   
+            
+        </style>
+    </head>
+
+    <body>
+
+        <div class="weather">
+            <input type="text">
+
+            <button>SEARCH</button>
+            <div class="info">
+                <p class="temp"></p>
+                <p class="desc"></p>
+                <p class="wind"></p>
+                <img src="">
+            </div>
+        </div>
+
+        <script src="me.js" defer></script>
+    </body>
+</html>
+
